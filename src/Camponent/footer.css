@@ -1,0 +1,14 @@
+body{
+    margin: 50px;
+    padding: 0px;
+}
+.pic{
+    height: 40px;
+    width: 40px;
+}
+.play{
+    margin-left: 150px;
+}
+hr{
+    margin-top: 20px;
+}

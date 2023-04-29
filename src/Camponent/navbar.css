@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(252, 230, 234);
+    margin: 0;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 90px;
+    padding: 0 1px;
+    list-style-type: none;  
+    margin-top: 0%;
+}
+.download{
+    list-style: none; 
+    font-size: 30px;
+    border: none;
+    background-color: rgb(252, 230, 234);
+}
+.logo{
+    color: rgb(235, 51, 113);
+    font-size: 70px;
+  
+}
+.profile{
+   font-size: 30px;
+}
+.become{
+    font-size: 30px;
+ }
+ .cart{
+    font-size: 30px;
+ }
+ .line{
+    height: 2px;
+    background-color: black;
+ }
+ 

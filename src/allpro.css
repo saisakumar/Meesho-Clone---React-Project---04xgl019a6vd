@@ -1,0 +1,42 @@
+body{
+    padding: 0%;
+    margin: 0;
+    font-size: smaller;
+}
+.allproducts{
+    display: grid;
+    margin: 5px 3.8vw;
+    grid-template-columns: 1fr 1fr;
+    gap: 5vw;
+    background-color: #f9f9f9;
+    padding-left: 220px;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.allproducts img{
+    height: 180px;
+    width: 150px;
+}
+.product{
+    border-radius: 25px;
+    background-color: rgb(217, 231, 244);
+    width: 600px;
+    border-radius: 2px solid black;
+}
+.add{
+    border-radius: 25px;
+    background-color: rgb(153, 231, 36);
+    padding: 6px;
+}
+.add:hover{
+padding: 10px;
+}
+
+.allproducts.details{
+    display: inline-block;
+}
+.product:hover{
+    background-color: pink;
+}

@@ -1,0 +1,23 @@
+.image{
+    padding-left: 220px;
+    width: 45%;
+    height: 250px;
+}
+.enter{
+    padding-left: 400px; 
+    margin: 10px;
+}
+input{
+    margin: 10px;
+}
+.submit{
+    background-color: purple;
+    margin-left: 30px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+.submit:hover{
+    padding:12px;
+    color: green;
+}
