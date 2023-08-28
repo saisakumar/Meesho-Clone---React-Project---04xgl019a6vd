@@ -1,23 +1,39 @@
-.image{
+h1{
+    font-size: 40px;
+    margin-top: 50px;
+    padding: 7px;
+}
+.pp{
     padding-left: 220px;
-    width: 45%;
+    width: 53%;
     height: 250px;
+    padding-bottom: 70px;
 }
-.enter{
-    padding-left: 400px; 
-    margin: 10px;
+.login-form{
+    padding-top: 1px;
+    padding-bottom: 30px;
 }
-input{
-    margin: 10px;
+.em{
+    font-size: 20px;
+  margin-left: 10px;  
+  padding-bottom: 14px;
+  padding-right: 29px;
 }
-.submit{
-    background-color: purple;
-    margin-left: 30px;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 8px;
+.pa{
+    font-size: 20px;
+    margin-left: 10px;  
+    padding-bottom: 22px; 
 }
-.submit:hover{
-    padding:12px;
-    color: green;
+.b{
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: yellow;
+}
+.b:hover{
+    background-color: yellowgreen;
+}
+.link-btn{
+    padding: 5px;
+
 }

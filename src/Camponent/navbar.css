@@ -1,6 +1,7 @@
 body{
-    background-color: rgb(252, 230, 234);
     margin: 0;
+    padding: 0%;
+    background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
 }
 .nav{
     display: flex;
@@ -12,14 +13,19 @@ body{
     margin-top: 0%;
 }
 .download{
-    list-style: none; 
-    font-size: 30px;
-    border: none;
-    background-color: rgb(252, 230, 234);
+    background: none;
+	color: inherit;
+	border: none;
+    height: 90px;
+    font-size: 28px;
+	padding: 0 1px;
+    list-style: none;
+	cursor: pointer;
+	
 }
 .logo{
-    color: rgb(235, 51, 113);
-    font-size: 70px;
+    color: rgb(232, 23, 92);
+    font-size: 50px;
   
 }
 .profile{
@@ -27,6 +33,7 @@ body{
 }
 .become{
     font-size: 30px;
+    
  }
  .cart{
     font-size: 30px;

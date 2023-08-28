@@ -14,7 +14,8 @@ img{
     height: 350px;
 }
 h1{
-    padding-left: 30%;
+    padding-left: 1%;
+    
 }
 .products{
     display: grid; 

@@ -20,7 +20,7 @@ function Navbar() {
   return (
     <div>
       <ul className='nav'>
-        <li className='logo'>meesho</li>
+        <li className='logo'><Link to="/" style={linkStyle}>meeshoo</Link></li>
       <li className='hm'>
       <Link to="/">|</Link>
       </li>
@@ -28,16 +28,15 @@ function Navbar() {
       <li>|</li>
       <li >
      
-      <button className='download' onClick={downdo}> <BsFillPhoneFill/>Download</button>
+      <button className='download'  onClick={downdo}> <BsFillPhoneFill/>Download</button>
       </li>
       <li>|</li>
       <li className='profile'>
-      <CgProfile/>
-        <Link to="/profile"style={linkStyle}>profile</Link>
+        <Link to="/profile"style={linkStyle}><CgProfile/>Profile</Link>
       </li>
       <li>|</li>
-      <li className='cart'><AiOutlineShoppingCart/>
-      <Link to="/Cart"style={linkStyle}>Cart</Link>
+      <li className='cart'>
+      <Link to="/Cart"style={linkStyle}><AiOutlineShoppingCart/>Cart</Link>
       </li>
     </ul>
     
